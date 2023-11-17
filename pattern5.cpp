@@ -3,8 +3,9 @@ using namespace std;
 
 int main()
 {
-	int i,j,k,n;
-	
+	int i,j,n;
+
+	cout<<"@Author - Yash Lade !! \n";
 	cout<<"Enter the no. :";
 	cin>>n;
 	
