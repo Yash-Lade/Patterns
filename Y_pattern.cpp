@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	int i,j;
+	
+	for(i=0;i<6;i++)
+	{
+		for(j=0;j<7;j++)
+		{
+			if((i==0 && (j==1 || j==5)) || (i==1 && (j-i==1 || j-i==4)) || (j==3 && i%6!=0))
+			{
+				cout<<"@";
+			}
+			else
+			cout<<" ";
+		}
+		cout<<"\n";
+	}
+}
