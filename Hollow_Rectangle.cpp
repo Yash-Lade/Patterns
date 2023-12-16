@@ -3,23 +3,14 @@ using namespace std;
 
 int main()
 {
-	int i,j,ro,co;
-	
-	cout<<"Enter the rows :";
-	cin>>ro;
-	
-	cout<<"Enter the columnes  :";
-	cin>>co;
-	
-	int rp=ro+1;
-	int cp=co+1;
+	int i,j;
+
 	cout<<"The pattern as follows :\n";
-	for(i=1;i<=ro;i++)
+	for(i=1;i<=5;i++)
 	{
-		rp=ro+1;
-		for(j=1;j<=co;j++)
+		for(j=1;j<=5;j++)
 		{
-			if(( i==1 && j%cp!=0) || (i==5 && j%cp!=0) || (i%rp!=0 && j==1) || (i%rp!=0 && j==5))
+			if(( i==1 && j%6!=0) || (i==5 && j%6!=0) || (i%6!=0 && j==1) || (i%6!=0 && j==5))
 			cout<<"*";
 			
 			else
