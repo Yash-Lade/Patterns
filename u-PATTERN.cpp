@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	int i,j;
+	
+	cout<<"\nThe pattern is as follows :\n";
+	
+	for(i=0;i<=7;i++)
+	{
+		for(j=0;j<=8;j++)
+		{
+			if(( i%7!=0 && (j==0 || j==8) ) || ( i==6 && j%8!=0))
+			cout<<"*";
+			
+			else
+			cout<<" ";
+		}
+		cout<<endl;
+	}
+}
