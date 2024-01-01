@@ -4,7 +4,9 @@ using namespace std;
 int main()
 {
 	int i,j;
-	
+
+	cout<<"@Author - Yash Lade !!\n";
+	cout<<"The pattern is as follows ::\n\n";
 	for(i=0;i<6;i++)
 	{
 		for(j=0;j<7;j++)
