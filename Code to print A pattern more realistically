@@ -5,7 +5,8 @@ int main()
 {
 	int i,j;
 	char ch=92;
-	
+
+	cout<<"@Author - Yash Lade !! \n\n";
 	cout<<"The pattern is as follows :\n";
 	
 	for(i=0;i<=6;i++)
